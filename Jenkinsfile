@@ -9,7 +9,7 @@ pipeline{
             stage("Build"){
             steps{
                 echo "Build the code using 'Gradle' to compile and package the code."
-                echo "Git Poll SCM Commit"
+                echo "Git Poll SCM Commit #2"
             }
         }
             stage("Unit and Integration Tests"){
